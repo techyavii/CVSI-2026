@@ -49,6 +49,7 @@ const Navbar: React.FC = () => {
   const navLinks = [
     { name: 'Home', href: '/' },
     { name: 'About Us', href: '/about-us' },
+    { name: 'AI Conclave', href: '/ai-conclave' },
     { 
       name: 'Author Info', 
       href: '#papers', 

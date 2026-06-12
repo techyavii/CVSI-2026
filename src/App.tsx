@@ -17,6 +17,7 @@ import Publications from "./pages/Publications";
 import ConferenceVenue from "./pages/ConferenceVenue";
 import Downloads from "./pages/Downloads";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
+import AIConclave from "./pages/AIConclave";
 import ConferenceBanner from "./components/ConferenceBanner";
 import Navbar from "./components/Navbar";
 import ImportantDatesModal from "./components/ImportantDatesModal";
@@ -42,6 +43,7 @@ const App: React.FC = () => (
               <Route path="/paper-submission" element={<PaperSubmission />} />
               <Route path="/quality-policies" element={<QualityPolicies />} />
               <Route path="/committee" element={<Committee />} />
+              <Route path="/ai-conclave" element={<AIConclave />} />
               <Route path="/registration" element={<Registration />} />
               <Route path="/checkout" element={<CheckoutForm />} />
               <Route path="/publications" element={<Publications />} />
